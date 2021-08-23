@@ -4,14 +4,53 @@
     <head>
         
         <meta charset="UTF-8">
-        
         <Title>Lucas de Oliveira Barboza</TItle>
+        <style>
+
+                body{
+
+                    background-color: rgb(214, 237, 247);
+
+                }
+
+                @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+
+                #nome{
+
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 30px;
+
+                }
+
+                #descricao{
+
+                    font-style: italic;
+                }
+                
+                #fonte-habilidades{
+
+                    font-style: italic;
+                }
+
+                .nacionalidade{
+
+                    font-weight: bold;
+
+                }
+
+                .tamanho{
+
+                    font-size: large;
+
+                }
+
+        </style>
 
     </head>
 
     <body>
         
-        <h2>Lucas de Oliveira Barboza</h2>
+        <h2 id="nome">Lucas de Oliveira Barboza</h2>
 
         <img src="Fotoperfil.png" alt="Foto de perfil do Lucas de Oliveira Barboza" width="200px" id="fotoperfil">
 
@@ -29,16 +68,16 @@
 
         <h4>Descrição:</h4>
 
-        <p>Prazer eu sou o Lucas. Sou brasileiro, nascido e criado em Ouro Preto/MG e atualmente sou estudante da Trybe e de Administração pela UFOP. Amo minha família, namorada e amigos. No tempo livre gosto de sair com os amigos, ir a festas da família, assistir futebol, jogar alguns jogos e claro ler um bom livro.</p>
+        <p id="descricao">Prazer eu sou o Lucas. Sou <span class="nacionalidade">brasileiro</span> , nascido e criado em <span class="nacionalidade">Ouro Preto/MG</span> e atualmente sou estudante da Trybe e de Administração pela UFOP. Amo minha família, namorada e amigos. No tempo livre gosto de sair com os amigos, ir a festas da família, assistir futebol, jogar alguns jogos e claro ler um bom livro.</p>
 
         <h4 id="#habilidades-que-me-orgulho">Habilidades me orgulho:</h4>
 
         <p><ul>
 
-            <li>Empatia</em></li>
-            <li>Comprometimento</li>
-            <li>Colaboração</li>
-            <li>Manter a calma</li>
+            <li id="fonte-habilidades", class="tamanho">Empatia</em></li>
+            <li id="fonte-habilidades">Comprometimento</li>
+            <li id="fonte-habilidades", class="tamanho">Colaboração</li>
+            <li id="fonte-habilidades">Manter a calma</li>
 
         </ul></p>
 
@@ -46,8 +85,8 @@
 
             <p><ul>
 
-                <li>Unix & Bash</li>
-                <li>Git</li>
+                <li id="fonte-habilidades">Unix & Bash</li>
+                <li id="fonte-habilidades", class="tamanho">Git</li>
 
             </ul></p>
 
